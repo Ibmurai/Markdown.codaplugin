@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CodaScriptPlugIn</string>
+	<key>CFBundleIconFile</key>
+	<string>plug-in</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.panic.CodaScriptPlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.1</string>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>3</string>
+	<key>NSPrincipalClass</key>
+	<string>CodaScriptPlugIn</string>
+	<key>commands</key>
+	<array>
+		<dict>
+			<key>fallbackInput</key>
+			<string>document</string>
+			<key>input</key>
+			<string>selection</string>
+			<key>keyEquivalent</key>
+			<string>~^@c</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>Convert to HTML</string>
+			<key>output</key>
+			<string>newDocument</string>
+			<key>script</key>
+			<string>Markdown.pl</string>
+			<key>uuid</key>
+			<string>6F1582DA-902E-4A8A-81E8-2B47BB603321</string>
+		</dict>
+		<dict>
+			<key>fallbackInput</key>
+			<string>document</string>
+			<key>input</key>
+			<string>selection</string>
+			<key>keyEquivalent</key>
+			<string>~^@p</string>
+			<key>keyEquivalentConflict</key>
+			<false/>
+			<key>name</key>
+			<string>Preview</string>
+			<key>output</key>
+			<string>showAsHTML</string>
+			<key>script</key>
+			<string>Markdown.pl</string>
+			<key>uuid</key>
+			<string>4AD4E35C-363A-4692-B7F6-A0262DE88EA0</string>
+		</dict>
+	</array>
+</dict>
+</plist>
