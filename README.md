@@ -9,13 +9,27 @@ Requirements
 Installation
 ------------
 
-Like any other Coda plugin, just throw it in `~/Library/Application Support/Coda/Plugins`.
+### Using git
+
+This is the preferred method.
+
+    cd ~/Library/Application\ Support/Coda/Plug-ins
+    git clone git@github.com:Ibmurai/Markdown.codaplugin.git
+
+If Coda is running, you will need to quit and relaunch it.
+
+### Without git
+
+ *  Download from github
+ *  Move contents of package to `~/Library/Application Support/Coda/Plug-ins/Markdown.codaplugin`
+
+If Coda is running, you will need to quit and relaunch it.
 
 Usage
 -----
 
- *  Use CTRL+ALT+CMD+C to convert to HTML.
- *  Use CTRL+ALT+CMD+P to preview.
+ *  Use CTRL+ALT+CMD+C to convert to HTML
+ *  Use CTRL+ALT+CMD+P to preview
 
 HISTORY
 -------
