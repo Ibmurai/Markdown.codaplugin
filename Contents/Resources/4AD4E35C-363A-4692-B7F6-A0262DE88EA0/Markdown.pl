@@ -217,7 +217,44 @@ else {
 			local $/;               # Slurp the whole file
 			$text = <>;
 		}
+        print "<!DOCTYPE html>
+        <html>
+        <head>
+        <style>
+        html{background-color:#FFFFFF;font-family:helvetica,arial,freesans,clean,sans-serif;font-size:13px;}
+        body{background-color:#F8F8F8;border:1px solid #E9E9E9;padding:9px;}
+        h1,h2,h3,h4,h5,h6{border:0;}
+        h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+        h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+        h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+        h3{margin-top:1em;}
+        p{margin:1em 0;line-height:1.5em;}
+        a.absent{color:#a00;}
+        ul{margin:1em 0 1em 2em;}
+        ol{margin:1em 0 1em 2em;}
+        ul li,ol li,{margin-top:.5em;margin-bottom:.5em;}
+        ul ul,ul ol,ol ol,ol ul,{margin-top:0;margin-bottom:0;}
+        blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+        dt{font-weight:bold;margin-left:1em;}
+        dd{margin-left:2em;margin-bottom:1em;}
+        table{margin:1em 0;}
+        table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+        table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+        pre{margin:1em 0;font-size:12px;background-color:#eee;border:1px solid #ddd;padding:5px;line-height:1.5em;color:#444;overflow:auto;-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+        pre::-webkit-scrollbar{height:8px;width:8px;}
+        pre::-webkit-scrollbar-track-piece{margin-bottom:10px;background-color:#e5e5e5;border-bottom-left-radius:4px 4px;border-bottom-right-radius:4px 4px;border-top-left-radius:4px 4px;border-top-right-radius:4px 4px;}
+        pre::-webkit-scrollbar-thumb:vertical{height:25px;background-color:#ccc;-webkit-border-radius:4px;-webkit-box-shadow:0 1px 1px rgba(255,255,255,1);}
+        pre::-webkit-scrollbar-thumb:horizontal{width:25px;background-color:#ccc;-webkit-border-radius:4px;}
+        pre code{padding:0;font-size:12px;background-color:#eee;border:none;}
+        code{font-size:12px;background-color:#f8f8ff;color:#444;padding:0 .2em;border:1px solid #dedede;}
+        a code,a:link code,a:visited code{color:#4183c4;}
+        img{max-width:100%;}
+        </style>
+        </head>
+        <body>";
         print Markdown($text);
+        print "</body>
+        </html>";
     }
 }
 

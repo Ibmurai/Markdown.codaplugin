@@ -34,11 +34,10 @@ Usage
 HISTORY
 -------
 
+### v1.1
+
+ *  Added a pretty stylesheet a la github, in preview mode.
+
 ### v1.0
 
  *  First version. Based on Markdown version 1.0.1
-
-TODO
-----
-
-1. Include a pretty stylesheet for the preview mode.
