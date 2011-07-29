@@ -14,7 +14,7 @@ Installation
 This is the preferred method.
 
     cd ~/Library/Application\ Support/Coda/Plug-ins
-    git clone git@github.com:Ibmurai/Markdown.codaplugin.git
+    git clone git://github.com/Ibmurai/Markdown.codaplugin.git
 
 If Coda is running, you will need to quit and relaunch it.
 
