@@ -26,9 +26,9 @@
 	<array>
 		<dict>
 			<key>fallbackInput</key>
-			<string>document</string>
+			<string>none</string>
 			<key>input</key>
-			<string>selection</string>
+			<string>document</string>
 			<key>keyEquivalent</key>
 			<string>~^@c</string>
 			<key>keyEquivalentConflict</key>
@@ -44,9 +44,9 @@
 		</dict>
 		<dict>
 			<key>fallbackInput</key>
-			<string>document</string>
+			<string>none</string>
 			<key>input</key>
-			<string>selection</string>
+			<string>document</string>
 			<key>keyEquivalent</key>
 			<string>~^@p</string>
 			<key>keyEquivalentConflict</key>
