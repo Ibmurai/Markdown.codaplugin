@@ -38,7 +38,7 @@
 			<key>output</key>
 			<string>newDocument</string>
 			<key>script</key>
-			<string>Markdown.pl</string>
+			<string>input.php</string>
 			<key>uuid</key>
 			<string>6F1582DA-902E-4A8A-81E8-2B47BB603321</string>
 		</dict>
@@ -56,7 +56,7 @@
 			<key>output</key>
 			<string>showAsHTML</string>
 			<key>script</key>
-			<string>Markdown.pl</string>
+			<string>input.php</string>
 			<key>uuid</key>
 			<string>4AD4E35C-363A-4692-B7F6-A0262DE88EA0</string>
 		</dict>

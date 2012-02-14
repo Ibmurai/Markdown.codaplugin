@@ -34,6 +34,10 @@ Usage
 HISTORY
 -------
 
+### master
+
+ *  Fixed a problem where Coda would go spinning beach ball forever.
+
 ### v1.1
 
  *  Added a pretty stylesheet a la github, in preview mode.
