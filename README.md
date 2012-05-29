@@ -34,8 +34,9 @@ Usage
 HISTORY
 -------
 
-### master
+### v1.2
 
+ *  Last version supporting Coda 1.
  *  Fixed a problem where Coda would go spinning beach ball forever.
 
 ### v1.1
