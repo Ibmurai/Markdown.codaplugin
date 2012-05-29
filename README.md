@@ -4,7 +4,7 @@ Markdown.codaplugin - A [Markdown](http://daringfireball.net/projects/markdown) 
 Requirements
 ------------
 
- *  Coda version 1.6
+ *  Coda 2
 
 Installation
 ------------
@@ -33,6 +33,10 @@ Usage
 
 HISTORY
 -------
+
+### v2.0
+
+ *  Ported for Coda 2.
 
 ### v1.2
 
